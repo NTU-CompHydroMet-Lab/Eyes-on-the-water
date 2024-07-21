@@ -2,8 +2,7 @@
 
 ## Overview
 This repository contains the final models, data, and supporting documentation for the "Eyes on the Water" project, which uses AI to monitor river health through citizen-collected photos.
-w
-(Wrc headlines)[https://www.wrcgroup.com/headlines/corporate/thousands-of-citizen-photos-train-ai-to-monitor-river-pollution/]
+[Wrc headlines](https://www.wrcgroup.com/headlines/corporate/thousands-of-citizen-photos-train-ai-to-monitor-river-pollution/)
 
 
 ## Installation
