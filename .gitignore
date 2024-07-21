@@ -1,7 +1,8 @@
 # test
-data
-Team documentation
-temp
+ignore
+EOTW_data
+EOTW_models
+
 .vscode
 
 # Byte-compiled / optimized / DLL files
