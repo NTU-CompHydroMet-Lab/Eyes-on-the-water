@@ -2,6 +2,9 @@
 
 ## Overview
 This repository contains the final models, data, and supporting documentation for the "Eyes on the Water" project, which uses AI to monitor river health through citizen-collected photos.
+w
+(Wrc headlines)[https://www.wrcgroup.com/headlines/corporate/thousands-of-citizen-photos-train-ai-to-monitor-river-pollution/]
+
 
 ## Installation
 1. Clone the repository:
@@ -30,6 +33,17 @@ Please download the data from the following link and place it in the `EOTW_data`
 
 [Eyes on the Water Data link](https://drive.google.com/drive/folders/1EpFzymSZf87BqfKMvbiT1NOkVhsfK5jI?usp=sharing)
 
+In the data directory, you will find the following folders of data wich are collected by WRC Group:
+### Data folder structure
+```
+└── EOTW_data/
+    ├── labelled/
+    │   ├── Image Classification
+    │   └── Objection detection
+    └── unlabelled/
+        ├── ArcGIS_Dataset
+        └── Big River Watch
+```
 
 ## Models
 In this project, we use two models: YOLOv8 for object detection and CTran for image classification. Please download the models from the following link and place them in the `EOTW_models` directory:
@@ -38,6 +52,23 @@ In this project, we use two models: YOLOv8 for object detection and CTran for im
 
 
 ## Demo
+
+Before running the demo notebooks, please make sure you have downloaded the data and models and placed them in the appropriate directories.
+
+### Folder structure
+```
+
+└── Eyes-on-the-water/
+    ├── Demos/
+    │   └── ...
+    ├── EOTW_data/
+    │   └── ...
+    ├── EOTW_models/
+    │   └── ...
+    ├── README.md
+    └── requirements.txt
+```
+
 
 - **Demos/Image classification.ipynb**: Demo notebook for image classification using the CTran model.
 - **Demos/Object detection.ipynb**: Demo notebook for object detection using the YOLOv8 model.
