@@ -9,7 +9,7 @@ This repository contains the final models, data, and supporting documentation fo
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/eyes-on-the-water.git
-   cd eyes-on-the-water
+   cd Eyes-on-the-water
 
 2. Install the required packages:
    ```bash
